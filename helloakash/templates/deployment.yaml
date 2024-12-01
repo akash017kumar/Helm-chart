@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: akash-deployment
+        app: helloakash-deployment
     spec:
       containers:
         - name: helloakash-deployment
