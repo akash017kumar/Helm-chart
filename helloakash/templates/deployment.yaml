@@ -16,6 +16,8 @@ spec:
     spec:
       containers:
         - name: helloakash-deployment
-          image: {{ .Values.image.repository }}
+          image: {{ .Values.image.repository }} 
+          # {{ .Values.image.tag }}
           ports:
             - containerPort: 80
+          
